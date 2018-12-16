@@ -8,7 +8,6 @@ Gem::Specification.new do |spec|
   spec.version = JaroWinkler::VERSION
   spec.authors = ['Jian Weihang']
   spec.email = 'tonytonyjan@gmail.com'
-  spec.extensions = ['ext/jaro_winkler/extconf.rb'] if RUBY_ENGINE == 'ruby'
   spec.summary = 'An implementation of Jaro-Winkler distance algorithm written \
   in C extension which supports any kind of string encoding.'
   spec.description = 'jaro_winkler is an implementation of Jaro-Winkler \
